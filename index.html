@@ -196,6 +196,10 @@ footer details[open] summary::after { content: "−"; }
 .legal p { margin: 0 0 .8rem; }
 footer .tm { max-width: 90ch; margin: 2rem 0 0; font-size: .85rem; }
 .group-strip{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem 2rem;margin-top:2rem;padding:1.2rem 0;border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14)}.group-strip a{text-decoration:none}.gs-main{font:400 .8rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#e6e8ea}.gs-main span{color:#ff4d2e}.gs-links{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;font-size:.9rem}.gs-links a{color:#9aa0a5}.gs-links a:hover,.gs-main:hover{color:#fff}
+.fphoto{margin:0;position:relative;overflow:hidden;max-width:420px;clip-path:polygon(0 0,calc(100% - 3rem) 0,100% 3rem,100% 100%,0 100%)}
+.fphoto img{display:block;width:100%;height:auto;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}.fphoto:hover img{transform:scale(1.03)}
+.fphoto::after{content:"";position:absolute;left:0;bottom:0;width:3.5rem;height:3px;background:var(--sig)}
+.sig{display:grid;gap:.35rem;margin-top:1.6rem}.sig b{font-weight:500;font-size:1.1rem;color:var(--text)}.sig span{font:400 .74rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -232,7 +236,7 @@ footer .tm { max-width: 90ch; margin: 2rem 0 0; font-size: .85rem; }
   <section class="light statement" id="was" aria-labelledby="was-titel">
     <div class="wrap">
       <p class="label rv">/ Was wir tun</p>
-      <h2 id="was-titel" class="fill">NoctaTec baut KI-Assistenten, die in Sportanlagen die Routine übernehmen: Fragen beantworten, Anmeldungen aufnehmen und Daten für die Systeme der Anlage vorbereiten. Damit das Team wieder Zeit für die Menschen auf dem Platz hat.</h2>
+      <h2 id="was-titel" class="fill">NoctaTec baut KI-Assistenten, die in Sportanlagen die Routine übernehmen. Sie beantworten Fragen, nehmen Anmeldungen auf und bereiten Daten für die Systeme der Anlage vor. Damit das Team wieder Zeit für die Menschen auf dem Platz hat.</h2>
       <div class="cols3">
         <div class="rv"><p class="num">01</p><h3>Routine abnehmen</h3><p>Assistenten im Messenger beantworten Standardfragen, nehmen Anmeldungen auf und entlasten das Team am Empfang.</p></div>
         <div class="rv"><p class="num">02</p><h3>Offen und nachvollziehbar</h3><p>Unsere Assistenten sagen offen, dass sie eine KI sind. Daten werden nur für den genannten Zweck verarbeitet, die Anlage behält die Kontrolle.</p></div>
@@ -282,10 +286,13 @@ footer .tm { max-width: 90ch; margin: 2rem 0 0; font-size: .85rem; }
 
   <section class="light founder" id="gruender" aria-labelledby="gruender-titel">
     <div class="wrap two">
-      <p class="label rv">/ Wer dahintersteckt</p>
+      <figure class="fphoto rv"><img src="leon-padel.jpg" width="800" height="1000" loading="lazy" alt="Leon Geffken, Gründer von NoctaTec, in einer Padelhalle"></figure>
       <div>
+        <p class="label rv">/ Wer dahintersteckt</p>
         <h2 id="gruender-titel" class="h2 rv">Ein Ansprechpartner. Vom ersten Gespräch bis zum Betrieb.</h2>
-        <p class="rv">Leon Geffken hat NoctaTec gegründet. Er ist Wirtschaftsinformatiker (M.&nbsp;Sc.) und entwickelt die Produkte selbst. Wer mit NoctaTec spricht, spricht direkt mit ihm.</p>
+        <p class="rv">Ich bin Leon Geffken und habe NoctaTec gegründet. Sport gehört für mich zum Alltag, vor allem Padel und Golf. Dabei habe ich gesehen, wie viel Routine in Sportanlagen liegt, die niemand gern macht.</p>
+        <p class="rv">Als Wirtschaftsinformatiker mit BWL-Hintergrund entwickle ich die Produkte selbst. Wer mit NoctaTec spricht, spricht direkt mit mir.</p>
+        <p class="sig rv"><b>Leon Geffken</b><span>Gründer · M.&nbsp;Sc. Wirtschaftsinformatik · M.&nbsp;Sc. Wirtschaftswissenschaft</span></p>
       </div>
     </div>
   </section>
