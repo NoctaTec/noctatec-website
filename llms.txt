@@ -1,0 +1,18 @@
+# NoctaTec
+
+> NoctaTec aus Bremen entwickelt KI-Assistenten im Messenger, die Sportanlagen Routinearbeit abnehmen. Die Assistenten beantworten Fragen, nehmen Anmeldungen auf und bereiten Daten für die Systeme der Anlage vor. Sie arbeiten neben bestehenden Systemen und geben sich offen als KI zu erkennen.
+
+## Produkte
+
+- [CourtDesk](https://www.courtdesk.de/): WhatsApp-Assistent für Padel-, Tennis- und Pickleballanlagen. Nimmt Firmenfitness-Anmeldungen von EGYM Wellpass und Hansefit/Epassi entgegen und bereitet sie für den Kundenimport in Playtomic vor. Status: Pilotphase.
+
+## Seiten
+
+- [Startseite](https://www.noctatec.de/)
+
+## Kontakt
+
+- E-Mail: kontakt@noctatec.de
+- Telefon: +49 152 02665878
+- NoctaTec ist eine Marke der TF Vespasian Vermögensverwaltungs-GmbH ([Vespasian Group](https://vespasian-group.de/)).
+- Anbieter: TF Vespasian Vermögensverwaltungs-GmbH, Buchenweg 16, 28870 Ottersberg, Amtsgericht Walsrode HRB 208382. Geschäftsführer: Leon Geffken und Bernd Geffken.
